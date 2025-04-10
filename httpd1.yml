@@ -1,0 +1,17 @@
+version: "3.8"
+services:
+  ubu:
+    image: image2
+    container_name: c2
+    ports:
+    - "8014:80"
+    volumes:
+    - vlm:/data
+    networks:
+    - net1
+
+volumes:
+  vlm:
+networks:
+  net1:
+    driver: bridge1
