@@ -4,7 +4,7 @@ services:
     image: image2
     container_name: c2
     ports:
-    - "8016:80"
+    - "8026:80"
     volumes:
     - vlm:/data
     networks:
