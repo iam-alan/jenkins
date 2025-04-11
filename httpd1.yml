@@ -1,8 +1,8 @@
 version: "3.8"
 services:
   ubu:
-    image: image2
-    container_name: c2
+    image: image1
+    container_name: c1
     ports:
     - "8016:80"
     volumes:
